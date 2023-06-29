@@ -7,11 +7,6 @@ on:
     
 
 jobs:
-  docker-deployment:
-    runs-on: ubuntu-latest
-
-  build:
-    name: Build
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
