@@ -9,10 +9,6 @@ on:
 jobs:
   docker-deployment:
     runs-on: ubuntu-latest
-    
-name: remote ssh command
-on: [push]
-jobs:
 
   build:
     name: Build
